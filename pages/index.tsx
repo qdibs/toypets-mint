@@ -17,7 +17,7 @@ import styles from "../styles/Theme.module.css";
 import { parseIneligibility } from "../utils/parseIneligibility";
 
 // Put Your NFT Drop Contract address from the dashboard here
-const myNftDropContractAddress = "0x9181CC8bC32bfED59945C5ea60875125048cb614";
+const myNftDropContractAddress = "0xa9feaFCB5b1d30a56f0e2c78baaF4Cc3076b7E1e";
 
 const Home: NextPage = () => {
   const { contract: nftDrop } = useContract(myNftDropContractAddress);
